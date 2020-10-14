@@ -40,5 +40,7 @@
 - Pada bagian capture filter masukan `dst port 443` untuk  mengambil paket yang menuju port 443.
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+- Pada bagian capture filter masukan `dst port 443` untuk  mengambil paket yang menuju port 443.
 
 ### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+- Pada bagian capture filter masukan `dst host monta.if.its.ac.id` untuk  mengambil paket yang tujuannya ke monta.if.its.ac.id.
