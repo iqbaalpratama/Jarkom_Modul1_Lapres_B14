@@ -42,7 +42,12 @@
 - Hasilnya maka seperti gambar di bawah ini.
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban13b.PNG?raw=true)
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
-- Pada bagian capture filter masukan `dst port 443` untuk  mengambil paket yang menuju port 443.
+- Untuk mendapatkan ip komputer sendiri kita bisa mencarinya pada cmd dengan memasukkan command `ipconfig`. Pada bagian wifi tertera ipv4 yang menunjukan ip ketika terhubung ke wifi. 
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban14a.PNG?raw=true)
+- Pada bagian capture filter masukan `src host 192.168.43.93` dan pilih wifi untuk mengambil paket yang berasal dari ip sendiri.
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban14b.PNG?raw=true)
+- Hasilnya maka seperti gambar di bawah ini.
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban14c.PNG?raw=true)
 
 ### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 - Pada bagian capture filter masukan `dst host monta.if.its.ac.id` dan pilih wifi atau ethernet untuk  mengambil paket yang tujuannya ke monta.if.its.ac.id.
