@@ -32,9 +32,15 @@
 ## **B. Capture Filter**
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 - Pada bagian capture filter masukan `port 21` untuk  mengambil paket yang mengandung port 21.
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban11a.PNG?raw=true)
+- Hasilnya maka seperti gambar di bawah ini. Namun karena port 21 tidak digunakan maka hsailnya kosong.
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban11b.PNG?raw=true)
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 - Pada bagian capture filter masukan `src port 80` untuk  mengambil paket yang berasal dari port 80.
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban12a.PNG?raw=true)
+- Hasilnya maka seperti gambar di bawah ini.
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban12b.PNG?raw=true)
 
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 - Pada bagian capture filter masukan `dst port 443` dan pilih wifi atau ethernet untuk  mengambil paket yang menuju port 443.
