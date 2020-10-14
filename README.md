@@ -1,4 +1,4 @@
-# **Praktikum_Jarkom_Modul1_B14**
+# **Jarkom_Modul1_Lapres_B14**
 ## **A. Display Filter**
 ### 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 
