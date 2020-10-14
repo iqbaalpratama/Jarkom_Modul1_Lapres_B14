@@ -2,7 +2,7 @@
 ## **A. Display Filter**
 ### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 - Langkah pertama adalah mencari ip address dari Microsoft FTP Service dengan filter `ftp contains "Microsoft FTP Service"`.
-![alt text](https://github.com/[username]/[reponame]/blob/data/no8a.jpg?raw=true)
+![alt text](https://github.com/[username]/[reponame]/blob/data/soal1.png?raw=true)
 - Berikutnya, dengan ip tersebut dapat kita cari request command dari FTP yang berupa RETR 
 
 ## **B. Capture Filter**
