@@ -37,8 +37,10 @@
 - Pada bagian capture filter masukan `src port 80` untuk  mengambil paket yang berasal dari port 80.
 
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
-- Pada bagian capture filter masukan `dst port 443` untuk  mengambil paket yang menuju port 443.
-
+- Pada bagian capture filter masukan `dst port 443` dan pilih wifi atau ethernet untuk  mengambil paket yang menuju port 443.
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban13a.PNG?raw=true)
+- Hasilnya maka seperti gambar di bawah ini.
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban13b.PNG?raw=true)
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 - Pada bagian capture filter masukan `dst port 443` untuk  mengambil paket yang menuju port 443.
 
