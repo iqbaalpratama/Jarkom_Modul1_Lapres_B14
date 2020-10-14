@@ -33,7 +33,7 @@
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 - Pada bagian capture filter masukan `port 21` untuk  mengambil paket yang mengandung port 21.
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban11a.PNG?raw=true)
-- Hasilnya maka seperti gambar di bawah ini. Namun karena port 21 tidak digunakan maka hsailnya kosong.
+- Hasilnya maka seperti gambar di bawah ini. Namun karena port 21 tidak digunakan maka hasilnya kosong.
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban11b.PNG?raw=true)
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
