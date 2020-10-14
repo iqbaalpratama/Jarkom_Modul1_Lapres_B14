@@ -3,7 +3,8 @@
 ### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 - Langkah pertama adalah mencari ip address dari Microsoft FTP Service dengan filter `ftp contains "Microsoft FTP Service"`.
 ![alt text](https://github.com/iqbaalpratama/Praktikum_Jarkom_B14/blob/main/soal1.PNG?raw=true)
-- Berikutnya, dengan ip tersebut dapat kita cari request command dari FTP yang berupa RETR 
+- Berikutnya, dengan ip tersebut dapat kita cari request command dari FTP yang berupa RETR `ip.src == 192.168.0.128 && ftp contains "RETR"`.
+![alt text](https://github.com/iqbaalpratama/Praktikum_Jarkom_B14/blob/main/data/jawaban8b.PNG?raw=true)
 
 ## **B. Capture Filter**
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
