@@ -26,12 +26,18 @@
 - Ip server ketika login FTP pada localhost adalah `127.0.0.1`. Kemudian kita filter packet yang mengandung `USER` dan `PASS` dengan filter `ip.scr_host == 127.0.0.1 && (ftp contains "USER" || ftp contains "PASS")`.
 ![alt text](https://github.com/iqbaalpratama/Praktikum_Jarkom_B14/blob/main/data/jawaban9.PNG?raw=true)
 
+### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46" 
+- Berdasarkan klu yang diberikan, kode tersebut dicari dengan `Ctrl + f` dan tipe data Hex value.
+
 ## **B. Capture Filter**
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+- Pada bagian capture filter masukan `port 21` untuk  mengambil paket yang mengandung port 21.
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+- Pada bagian capture filter masukan `src port 80` untuk  mengambil paket yang berasal dari port 80.
 
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+- Pada bagian capture filter masukan `dst port 443` untuk  mengambil paket yang menuju port 443.
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
