@@ -31,11 +31,33 @@
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5b.png?raw=true)
 - Setelah itu login di `aku.pengen.pw` dengan username dan password yang sudah ditemukan sebelumnya dan menjawab pertanyaan pada web tersebut
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5c.png?raw=true)
+
 ### 6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
--
+- Langkah pertama yaitu dengan display filter `ftp-data.command contains "Answer.zip"` untuk mencari file `Answer.zip`
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6a.png?raw=true)
+- Kemudian gunakan follow TCP Stream untuk melihat detail paket, kemudian pilih tipe data Raw untuk nantinya digunakan melihat data
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6b.png?raw=true)
+- Save as data tersebut dengan ekstensi `.zip`
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6c.png?raw=true)
+- Mencari file `zipkey.txt` untuk mengetahui password dari file `Answer.zip` dengan display filter `ftp-data.command contains "zipkey.txt"`
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6d.png?raw=true)
+- Kemudian gunakan follow TCP Stream untuk melihat detail paket serta set tipe data ASCII untuk bisa membaca data file tersebut. Data yang dihasilkan tersebut merupakan password dari file `Answer.zip`
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6e.png?raw=true)
+- Masukkan password tersebut untuk membuka file `Answer.zip` dan nantinya akan ada file `Open This.pdf` yang dicari
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6f.png?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6g.png?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6h.png?raw=true)
+
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut! Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf".
-
-
+- Langkah pertama yaitu dengan display filter `ftp-data contains "Yes.pdf"` untuk mencari file zip yang memiliki file `Yes.pdf` di dalamnya
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban7a.png?raw=true)
+- Kemudian gunakan follow TCP Stream untuk melihat detail paket, kemudian pilih tipe data Raw untuk nantinya digunakan melihat data
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban7b.png?raw=true)
+- Save as data tersebut dengan ekstensi `.zip`
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban7c.png?raw=true)
+- Buka file hasil save data tersebut kemudian nanti akan ada file `Yes.pdf` yang dicari
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban7d.png?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban7e.png?raw=true)
 ### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 - Langkah pertama adalah mencari ip address dari Microsoft FTP Service dengan filter `ftp contains "Microsoft FTP Service"`.
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban8a.PNG?raw=true)
