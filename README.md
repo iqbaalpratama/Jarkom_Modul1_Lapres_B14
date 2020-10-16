@@ -20,10 +20,18 @@
 - Kemudian scroll ke bawah hingga menemukan HTML Form URL Encoded sehingga terlihat username dan password ketika login di `ppid.dpr.go.id` seperti berikut
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban3b.png?raw=true)
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban3c.png?raw=true)
+
+Kendala yang ditemukan saat pengerjaan:
+- Kurang mengetahu adanya filter `http.request.method == "POST"` untuk mempermudah melakukan pencarian username dan password dari login yang dilakukan
+
 ### 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 - Cara yang digunakan yaitu dengan display filter `http.authbasic` sehingga daftar paket yang menggunakan basic authentification seperti berikut
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban4a.png?raw=true)
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban4b.png?raw=true)
+
+Kendala yang ditemukan saat pengerjaan:
+- Kurang mengetahu adanya filter `http.authbasic` untuk mencari daftar paket yang menggunakan basic authentification
+
 ### 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 - Cara yang digunakan yaitu dengan display filter `http contains "aku.pengen.pw" && http.authbasic` dan pilih salah satu paket
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5a.png?raw=true)
@@ -48,6 +56,9 @@
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6g.png?raw=true)
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban6h.png?raw=true)
 
+Kendala yang ditemukan saat pengerjaan:
+- Kurang mengetahu cara untuk download data dari TCP Stream
+
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut! Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf".
 - Langkah pertama yaitu dengan display filter `ftp-data contains "Yes.pdf"` untuk mencari file zip yang memiliki file `Yes.pdf` di dalamnya
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban7a.png?raw=true)
@@ -58,6 +69,10 @@
 - Buka file hasil save data tersebut kemudian nanti akan ada file `Yes.pdf` yang dicari
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban7d.png?raw=true)
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban7e.png?raw=true)
+
+Kendala yang ditemukan saat pengerjaan:
+- Kurang mengetahu cara mencari file yang terdapat di dalam sebuah zip file pada sebuah paket serta kurang mengetahui cara mendownload file atau data dari TCP Stream
+
 ### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 - Langkah pertama adalah mencari ip address dari Microsoft FTP Service dengan filter `ftp contains "Microsoft FTP Service"`.
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban8a.PNG?raw=true)
@@ -78,6 +93,9 @@
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10c.png?raw=true)
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10d.png?raw=true)
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10e.png?raw=true)
+
+Kendala yang ditemukan saat pengerjaan:
+- Kurang mengetahu maksud dari clue yang diberikan dan juga cara mendownload file atau data dari TCP Stream
 
 ## **B. Capture Filter**
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
