@@ -71,13 +71,13 @@
 
 ### 10. Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46" 
 - Berdasarkan clue yang diberikan, kode tersebut dicari dengan `Ctrl + F` dan tipe data Hex value kemudian mengetikkan clue `25 50 44 46`
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10a.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10a.png?raw=true)
 - Kemudian dari hasil yang diberikan digunakan follow TCP Stream untuk melihat data, pilih tipe data Raw untuk nantinya digunakan melihat data
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10b.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10b.png?raw=true)
 - Save as data tersebut dengan ekstensi `.pdf` dan hasilnya adalah
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10c.PNG?raw=true)
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10d.PNG?raw=true)
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10e.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10c.png?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10d.png?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban10e.png?raw=true)
 
 ## **B. Capture Filter**
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
