@@ -1,4 +1,7 @@
 # **Jarkom_Modul1_Lapres_B14**
+Anggota Kelompok:
+- IQBAAL PRATAMA PUTRA  (05111840000021)
+- DWI WAHYU SANTOSO     (05111840000121)
 ## **A. Display Filter**
 ### 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 - Langkah pertama yaitu melakukan dispalay filter dengan command `http contains "testing.mekanis.me"`.
