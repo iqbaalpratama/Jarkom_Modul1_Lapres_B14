@@ -26,7 +26,7 @@
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban4b.png?raw=true)
 ### 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 - Cara yang digunakan yaitu dengan display filter `http contains "aku.pengen.pw" && http.authbasic` dan pilih salah satu paket
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5a.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5a.png?raw=true)
 - Kemudian pada bagian Authorization nantinya akan ada Credentials yang merupakan username dan password dimana usernamenya `kakakgamtenk` dan passwordnya `hartatahtabermuda`
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5b.png?raw=true)
 - Setelah itu login di `aku.pengen.pw` dengan username dan password yang sudah ditemukan sebelumnya dan menjawab pertanyaan pada web tersebut
