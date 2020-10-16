@@ -2,35 +2,35 @@
 ## **A. Display Filter**
 ### 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 - Langkah pertama yaitu melakukan dispalay filter dengan command `http contains "testing.mekanis.me"`.
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban1a.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban1a.png?raw=true)
 - Berikutnya pilih salah satu paket dan kemudian lihat detail paket tersebut untuk mengetahui webserver yang digunakan dengan follow TCP Stream
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban1b.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban1b.png?raw=true)
 - Lihat webserver yang digunakan pada bagian Server berikut
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban1c.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban1c.png?raw=true)
 ### 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 - Cara menyimpan gambar tersebut yaitu Export HTTP Object seperti berikut
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban2a.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban2a.png?raw=true)
 - Kemudian lakukan text filter dengan `Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg` dan save hasil yang muncul
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban2b.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban2b.png?raw=true)
 - Berikut ini hasil gambar yang di-download
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban2c.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban2c.png?raw=true)
 ### 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
 - Caranya yaitu dengan menggunakan display filter `http contains "ppid.dpr.go.id" && http.request.method == "POST"`
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban3a.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban3a.png?raw=true)
 - Kemudian scroll ke bawah hingga menemukan HTML Form URL Encoded sehingga terlihat username dan password ketika login di `ppid.dpr.go.id` seperti berikut
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban3b.PNG?raw=true)
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban3c.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban3b.png?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban3c.png?raw=true)
 ### 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 - Cara yang digunakan yaitu dengan display filter `http.authbasic` sehingga daftar paket yang menggunakan basic authentification seperti berikut
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban4a.PNG?raw=true)
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban4b.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban4a.png?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban4b.png?raw=true)
 ### 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 - Cara yang digunakan yaitu dengan display filter `http contains "aku.pengen.pw" && http.authbasic` dan pilih salah satu paket
 ![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5a.PNG?raw=true)
 - Kemudian pada bagian Authorization nantinya akan ada Credentials yang merupakan username dan password dimana usernamenya `kakakgamtenk` dan passwordnya `hartatahtabermuda`
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5b.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5b.png?raw=true)
 - Setelah itu login di `aku.pengen.pw` dengan username dan password yang sudah ditemukan sebelumnya dan menjawab pertanyaan pada web tersebut
-![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5c.PNG?raw=true)
+![alt text](https://github.com/iqbaalpratama/Jarkom_Modul1_Lapres_B14/blob/main/data/jawaban5c.png?raw=true)
 ### 6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
 -
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut! Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf".
